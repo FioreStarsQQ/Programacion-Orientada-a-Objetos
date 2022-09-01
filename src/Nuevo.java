@@ -16,9 +16,10 @@ public class Nuevo {
         System.out.println(trabajor3.devuelveDatos());
         System.out.println(trabajor4.devuelveDatos());
         System.out.println(trabajor5.devuelveDatos());
-        // los metods estaticos siempre trabajan con la clase directamente, no actuan sobre objetos OTRO DATO: los metdos statics acceden solo a variables o constantes static
+        // los metods estaticos siempre trabajan con la clase directamente, no actuan
+        // sobre objetos OTRO DATO: los metdos statics acceden solo a variables o
+        // constantes static
         System.out.println(Empleados.dameIdSiguiente());
-
     }
 }
 
@@ -39,8 +40,8 @@ class Empleados {
         IdSiguiente++;
     }
 
-    public static String dameIdSiguiente(){
-        return "El Id siguiente es: "+IdSiguiente;
+    public static String dameIdSiguiente() {
+        return "El Id siguiente es: " + IdSiguiente;
     }
 
     public void cambiaSeccion(String seccion) { // SETTER
